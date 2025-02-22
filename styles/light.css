@@ -14,7 +14,11 @@
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  background: var(--bg-image) center / cover no-repeat fixed;
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .theme-light .header__rec {
