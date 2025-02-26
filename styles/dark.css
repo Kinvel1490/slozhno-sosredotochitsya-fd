@@ -10,42 +10,16 @@
   --accent-color: #DB00FF;
   --shadow-color: #FF0070;
   --shadow-color-transparent: #FF007066;
+  --page-headers-color: #FF0070;
+  --title-decor-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
 }
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-image: var(--bg-image);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.theme-dark .header__theme-menu-list {
-  color: var(--shadow-color);
-}
-
-.theme-dark .header__theme-menu-button:hover {
-  border: 1px solid var(--shadow-color-transparent);
-}
-
-.theme-dark .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--shadow-color);
-}
-
-.theme-dark .header__theme-menu-button_active {
-  border: 1px solid var(--shadow-color);
 }
 
 .theme-dark .header__rec {
   display: flex;
-}
-
-.theme-dark .title-decor {
-  color: var(--bg-color);
-}
-
-.theme-dark .questions__list-item-header {
-  color: var(--shadow-color);
 }
