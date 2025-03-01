@@ -35,8 +35,8 @@
   display: block;
   inline-size: 25px;
   block-size: 25px;
-  border-top: 1px solid var(--shadow-color);
-  border-right: 1px solid var(--shadow-color);
+  border-top: 1px solid var(--page-headers-color);
+  border-right: 1px solid var(--page-headers-color);
   position: absolute;
   top: var(--padding);
   right: 0;
@@ -45,8 +45,8 @@
 .decorated-zone:after {
   border-top: none;
   border-right: none;
-  border-left: 1px solid var(--shadow-color);
-  border-bottom: 1px solid var(--shadow-color);
+  border-left: 1px solid var(--page-headers-color);
+  border-bottom: 1px solid var(--page-headers-color);
   top: unset;
   right: unset;
   bottom: var(--padding);
@@ -164,7 +164,7 @@
   color: var(--title-decor-color);
 }
 
-.font-weight-normal {
+.main-content__subtitle {
   font-weight: normal;
 }
 
